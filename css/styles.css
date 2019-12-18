@@ -39,7 +39,7 @@ color: #8f8f8f;
 /* CLASS */
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* navigation bar */
@@ -74,9 +74,11 @@ color: #8f8f8f;
 .title-image {
   transform: rotate(25deg);
   width: 60%;
-  /* max-width: 250px;
-  position: relative;
-  left: 80px; */
+  position: absolute;
+  right: 30%;
+  /* left: 100px;
+  max-width: 250px;
+  position: relative;*/
 }
 
 /* features */
@@ -84,6 +86,9 @@ color: #8f8f8f;
 #features {
 
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
 
 }
 
