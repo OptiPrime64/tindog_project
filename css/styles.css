@@ -9,12 +9,14 @@ h1 {
   line-height: 1.5;
 }
 
+
 /* ID */
 
 #title {
   background-color: #ff4c68;
   color: white; /* or #fff*/
 }
+
 
 /* CLASS */
 
@@ -54,4 +56,39 @@ h1 {
 .title-image {
   transform: rotate(25deg);
   width: 60%;
+  /* position: relative;
+  left: 80px; */
+}
+
+/* features */
+
+#features {
+
+  padding: 7% 15%;
+
+}
+
+.feature-box {
+text-align: center;
+padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+
+p {
+color: #8f8f8f;
 }
