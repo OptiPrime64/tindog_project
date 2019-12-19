@@ -159,3 +159,24 @@ padding: 5%;
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.container-fluid-bottom {
+  padding: 5% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 3% 0;
+}
+
+.footer-item {
+  padding: 30px 10px;
+}
