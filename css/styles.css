@@ -35,6 +35,11 @@ color: #8f8f8f;
   color: white; /* or #fff*/
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align:center;
+  }
+}
 
 /* CLASS */
 
@@ -79,6 +84,13 @@ color: #8f8f8f;
   /* left: 100px;
   max-width: 250px;
   position: relative;*/
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position:static;
+    transform: rotate(0);
+  }
 }
 
 /* features */
